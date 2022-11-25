@@ -1,0 +1,37 @@
+style: github
+template: CHANGELOG.tpl.md
+info:
+  title: CHANGELOG
+  repository_url: https://github.com/udaycruise2903/sc-rewards
+options:
+  commits:
+    filters:
+      Type:
+        - feat
+        - fix
+        - docs
+        - style
+        - perf
+        - refactor
+        - test
+        - chore
+        - build
+  commit_groups:
+    title_maps:
+      feat: Features
+      fix: Bug Fixes
+      docs: Documentation Changes
+      style: Code Style Changes
+      perf: Performance Improvements
+      refactor: Code Refactoring
+      test: Test
+      chore: Update
+      build: Build System Changes
+  header:
+    pattern: "^(\\w*)\\:\\s(.*)$"
+    pattern_maps:
+      - Type
+      - Subject
+  notes:
+    keywords:
+      - BREAKING CHANGE
