@@ -7,6 +7,7 @@ import (
 	_ "net/http"
 
 	_ "github.com/codeuniversity/smag-mvp/utils"
+	_ "github.com/git-chglog/git-chglog/cmd/git-chglog"
 	_ "github.com/google/uuid"
 	_ "github.com/kelseyhightower/envconfig"
 	_ "github.com/lib/pq"
